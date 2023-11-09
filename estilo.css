@@ -51,7 +51,7 @@ header .menu li { /* Define o estilo dos itens da lista */
 header .menu li a { /* Define o estilo dos links */
   color: initial; /* Define a cor como initial */
   text-decoration: initial; /* Define o text-decoration como initial */
-  color: white; /* Define a cor como white */
+  color: rgb(255, 0, 0); /* Define a cor como white */
 }
 header .menu li:hover { /* Define o estilo dos itens da lista quando o mouse passa por cima */
   background-color: #01acea;  /* Define a cor de fundo como #01acea */
