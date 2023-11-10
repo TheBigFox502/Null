@@ -24,7 +24,7 @@ header { /* Define o estilo do cabeçalho */
   width: 100%; /* Define a largura como 100% */
   position: fixed; /* Define a posição como fixa */
   z-index: 10; /* Define o z-index como 10 */
-  background: black;/* Define o background como black */
+  background: #05040A;/* Define o background como black */
 }
 header #logo { /* Define o estilo do logo */
   position: absolute;/* Define a posição como absolute */
@@ -51,10 +51,10 @@ header .menu li { /* Define o estilo dos itens da lista */
 header .menu li a { /* Define o estilo dos links */
   color: initial; /* Define a cor como initial */
   text-decoration: initial; /* Define o text-decoration como initial */
-  color: rgb(255, 0, 0); /* Define a cor como white */
+  color: #1E1B24(255, 0, 0); /* Define a cor como white */
 }
 header .menu li:hover { /* Define o estilo dos itens da lista quando o mouse passa por cima */
-  background-color: #01acea;  /* Define a cor de fundo como #01acea */
+  background-color: #9B9987;  /* Define a cor de fundo como #01acea */
 }
 /* --------  Capa  -------- */
 figure {  /* Define o estilo da figura */
