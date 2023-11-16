@@ -93,7 +93,7 @@ figure h2.titulo {  /* Define o estilo do título h2 */
   font-size: 20px;  /* Define o tamanho da fonte como 20px */
 }
 .cta:hover {    /* Define o estilo do botão quando o mouse passa por cima */
-  background-color: #01acea;  /* Define a cor de fundo como #01acea */
+  background-color: #1E1B24;  /* Define a cor de fundo como #01acea */
   border: 0px;  /* Define a borda como 0px */
 }
 /* --------  Colunas  -------- */
@@ -162,7 +162,7 @@ h2 {
 }
 /* --------  Footer  -------- */
 footer {  /* Define o estilo do rodapé */
-  background-color: #01acea;  /* Define a cor de fundo como #01acea */
+  background-color: #1E1B24;  /* Define a cor de fundo como #01acea */
   width: 100%;  /* Define a largura como 100% */
   margin: 0 auto; /* Define a margem como 0 */
   overflow: hidden; /* Define o overflow como hidden */
