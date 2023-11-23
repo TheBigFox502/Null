@@ -162,12 +162,12 @@ h2 {
 }
 /* --------  Footer  -------- */
 footer {  /* Define o estilo do rodapé */
-  background-color: #1E1B24;  /* Define a cor de fundo como #01acea */
+  background-color: #05040A;  /* Define a cor de fundo como #01acea */
   width: 100%;  /* Define a largura como 100% */
   margin: 0 auto; /* Define a margem como 0 */
   overflow: hidden; /* Define o overflow como hidden */
   padding: 30px 0 50px 0; /* Define o padding como 30px 0 50px 0 */
-  color: #fff;  /* Define a cor como #fff */
+  color: #F3F9D2;  /* Define a cor como #fff */
 }
 footer .container { /* Define o estilo do container */
   padding: 30px 0 50px 0; /* Define o padding como 30px 0 50px 0 */
