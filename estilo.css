@@ -61,7 +61,7 @@ figure {  /* Define o estilo da figura */
   margin: 0 auto; /* Define a margem como 0 */
 }
 figure .imagem_fundo {  /* Define o estilo da imagem de fundo */
-  background: url(imagem/83f9e03b-8e5d-4c67-8bd7-459942b7d7f8.jpg); /* https://www.pexels.com/photo/beach-sea-blue-endless-wild-nature-103567/ */
+  background: url(imagem/Fundo.jpg); /* https://www.pexels.com/photo/beach-sea-blue-endless-wild-nature-103567/ */
   background-size: cover; /* Define o background-size como cover */
   height: 100%; /* Define a altura como 100% */
   padding: 10px;  /* Define o padding como 10px */
