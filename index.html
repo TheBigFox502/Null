@@ -1,156 +1,77 @@
-<html>
-<!-- A tag <html> indica o início do documento HTML. -->
+<!DOCTYPE html>
+<html lang="pt-br">
+<!-- Documento HTML5 com declaração do idioma -->
 
 <head>
-  <!-- A tag <head> contém metadados/informações sobre o documento HTML. -->
-
-  <title>Vigilantes animal</title>
-  <!-- A tag <title> define o título da página, que aparece na aba do navegador. -->
-
-  <link rel="stylesheet" href="estilo.css">
-  <!-- A tag <link> é usada para linkar um arquivo CSS externo, que contém os estilos que serão aplicados ao HTML. -->
-
-  <meta charset="utf-8"/>
-  <!-- A tag <meta> com o atributo charset="utf-8" especifica a codificação de caracteres para o documento HTML. -->
-
+  <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <!-- Outra tag <meta>, que controla a viewport e a escalabilidade no dispositivos móveis. -->
+  <title>Vigilantes Animal</title>
+  <link rel="stylesheet" href="estilo.css">
+  <!-- Link para o arquivo de estilo externo -->
 </head>
 
 <body>
-  <!-- A tag <body> contém o conteúdo principal da página que será exibido no navegador. -->
+  <!-- Corpo do documento -->
 
-  <!--MENU-->
+  <!-- CABEÇALHO -->
   <header>
-    <!-- A tag <header> é usada para definir um cabeçalho para um documento ou seção. -->
-    <div id="logo"><img src="imagem/1.png" alt="Logo"/></div> <!-- A tag <div> com um id é um container que pode ser estilizado com CSS. A tag <img> é usada para inserir uma imagem. -->
-
-    <ul class="menu">
-      <!-- A tag <ul> define uma lista não ordenada e o atributo class permite que seja estilizada com CSS. -->
-      <li><a href="#menu1">Sobre</a></li>
-      <!-- A tag <li> é usada para cada item da lista e a tag <a> cria um hyperlink. -->
-      <!-- As demais tags <li> e <a> seguem o mesmo padrão. -->
-    </ul>
+    <div id="logo">
+      <img src="imagem/1.png" alt="Logo Vigilantes Animal" />
+    </div>
+    <nav>
+      <ul class="menu">
+        <li><a href="#menu1">Sobre</a></li>
+        <!-- Outros itens de menu podem ser adicionados conforme necessário -->
+      </ul>
+    </nav>
   </header>
 
-  <!--CAPA-->
-  <figure id="capa" class="centro">
-    <!-- A tag <figure> é usada para marcar conteúdo independente como imagens, diagramas, etc. Pode ser estilizada com CSS através do id e da classe. -->
+  <!-- CAPA -->
+  <section id="capa" class="centro">
     <div class="imagem_fundo">
-      <!-- Um <div> com classe para estilização de fundo da imagem. -->
       <h1 class="titulo">Caça Zero</h1>
-      <!-- A tag <h1> é usada para o título principal da seção e pode ser estilizada com a classe "titulo". -->
-      <h2 class="titulo">Conscientização e Ação Contra a Caça Ilegal</h2>
-      <!-- A tag <h2> é para títulos de segundo nível e também está estilizada. -->
+      <h2 class="subtitulo">Conscientização e Ação Contra a Caça Ilegal</h2>
       <a class="cta" href="#menu1">Conhecer</a>
-      <!-- A tag <a> aqui é usada como um botão de chamada para ação (Call To Action - CTA), levando o usuário para a seção do projeto. -->
-    </div>
-  </figure>
-
-  <!--PROJETO-->
-  <!-- As tags <section> definem seções do documento e são identificadas pelo id. As classes "coluna" e "dois" seriam usadas para estilizar as colunas e o layout. -->
-  <!-- A tag <iframe> é usada para embutir outro documento dentro do atual, neste caso, um vídeo do YouTube. -->
-  <!-- As tags <h1>, <hr> (linha horizontal), e <p> (parágrafo) são usadas para estruturar textualmente a seção com títulos e texto, e podem ser estilizadas com classes. -->
-
-    <section id="menu1" class="cor_fundo">
-      <div class="coluna dois">
-          <video width="560" height="315" controls>
-              <source src="Video/inicial.mp4" type="video/mp4">
-              Seu navegador não suporta o elemento de vídeo.
-          </video>
-      </div>
-      <div class="coluna dois">
-          <h1 class="centro">Sobre o projeto</h1>
-          <hr>
-          <p class="justificado">O projeto "Caça Zero" é uma iniciativa dedicada a conscientizar a sociedade sobre os impactos nefastos da caça ilegal e propor soluções sustentáveis para proteger a vida selvagem em todo o mundo.</p>
-          <p class="justificado">Com uma abordagem abrangente, nosso objetivo é criar uma mudança positiva na atitude das pessoas em relação à caça predatória, promovendo a conservação da biodiversidade e a preservação dos ecossistemas.</p>
-      </div>
-  </section>
-  
-  <!--SELEÇÃO-->
-  <!-- Segue o mesmo padrão da seção anterior, mas agora com a classe "quatro" provavelmente indicando uma divisão de quatro colunas. -->
-  <!-- A tag <img> é usada novamente para inserir imagens que representam cada categoria de reciclagem. -->
-
-  <section id="menu2">
-    <h1>Propostas principais</h1>
-    <hr>
-    <div class="coluna quatro">
-      <!-- A classe "quatro" é usada para dividir a seção em quatro colunas. -->
-      <div class="icone">
-        <!-- A classe "icone" é usada para estilizar o ícone. -->
-        <img src="imagem/globo-unscreen.gif" alt="Globo"/>
-        <!-- A tag <img> é usada para inserir uma imagem. -->
-      </div>
-      <h1 class="centro">Conscientização Global</h1>
-      <p class="centro">Desenvolver campanhas educativas e de sensibilização para informar o público sobre as consequências da caça ilegal, destacando a importância de preservar a diversidade biológica.</p>
-    </div>   
-    <div class="coluna quatro">
-      <!-- A tag <div> é usada para definir uma divisão ou seção no documento. -->
-      <!-- A classe "quatro" é usada para dividir a seção em quatro colunas. -->
-      <div class="icone">
-        <!-- A classe "icone" é usada para estilizar o ícone. -->
-        <img src="imagem/papagaio-unscreen.gif" alt="Papagaio"/>
-      </div>
-      <h1 class="centro">Reabilitação da Vida Selvagem</h1>
-      <p class="centro"> Apoiar e colaborar com centros de reabilitação de animais selvagens, trabalhando para reintroduzir espécies ameaçadas na natureza e garantir a preservação de habitats naturais.</p>
-    </div>
-    <div class="coluna quatro">
-      <div class="icone">
-        <img src="imagem/seguranca-unscreen.gif" alt="Segurança"/>
-      </div>
-      <h1 class="centro">Monitoramento e Avaliação</h1>
-      <p class="centro"> Implementar sistemas robustos de monitoramento e avaliação para avaliar o progresso do projeto, ajustar estratégias conforme necessário e garantir a transparência nas operações.</p>
-    </div>
-    <div class="coluna quatro">
-      <div class="icone">
-        <img src="imagem/2-unscreen.gif" alt="Rede de contatos"/>
-      </div>
-      <h1 class="centro">Engajamento Comunitário</h1>
-      <p class="centro">Trabalhar de perto com comunidades locais em áreas propensas à caça ilegal, incentivando práticas de conservação e fornecendo alternativas econômicas sustentáveis que não envolvam danos à vida selvagem.</p>
     </div>
   </section>
 
-  <!--ECOPONTOS-->
-  <!-- Semelhante às seções anteriores, com uma lista de locais de ecopontos. -->
-
-  <section id="menu3" class="cor_fundo">
-    <!--A tag section é usada para definir seções do documento e é identificada pelo id. A classe "cor_fundo" é usada para estilizar o fundo da seção. -->
-    <h1>Apoie</h1>
-    <hr>
-    <h2>Apoie essas instiuições e seja um voluntário.</h2>
-    <div class="coluna tres fundo">
-      <!-- A classe "tres" é usada para dividir a seção em três colunas. A classe "fundo" é usada para estilizar o fundo da seção. -->
-      <img src="imagem/IME.png" alt="Logo" />
-      <h1 class="centro">ICMBio</h1>
-      <p class="centro"><a href="https://www.gov.br/icmbio/pt-br" target="_blank">https://www.gov.br/icmbio/pt-br</a></p>
-    </div>
-    <div class="coluna tres fundo">
-      <img src="imagem/SOS.png" alt="Logo" />
-      <h1 class="centro">SOS Pantanal</h1>
-      <p class="centro"><a href="https://www.sospantanal.org.br/" target="_blank">https://www.sospantanal.org.br/</a></p>
-    </div>
-    <div class="coluna tres fundo">
-      <img src="imagem/WWB.png" alt="Logo" />
-      <h1 class="centro">World Wildlife Fund (WWF)</h1>
-      <p class="centro"><a href="https://www.wwf.org.br/" target="_blank">https://www.wwf.org.br/</a></p>
-    </div>
-
-  </section>
-
-  <!--RODAPÉ-->
-    
-    <!-- Segue o padrão das colunas anteriores para disposição de informações e créditos. -->
-  
-  <footer>
-    <!-- A tag <footer> é usada para definir o rodapé do documento ou seção. -->
+  <!-- PROJETO -->
+  <section id="menu1" class="cor_fundo">
     <div class="coluna dois">
-      <h1 class="esquerda">Sobre o site</h1>
-      <p>Projeto desenvolvido durante a eletiva "Mundo do desenvolvimento WEB",ministrada pelo professor Ujeverson Tavares.</p>
+      <video width="560" height="315" controls>
+        <source src="Video/inicial.mp4" type="video/mp4">
+        Seu navegador não suporta o elemento de vídeo.
+      </video>
+    </div>
+    <div class="coluna dois">
+      <h1 class="centro">Sobre o Projeto</h1>
+      <hr>
+      <p class="justificado">O projeto "Caça Zero" é uma iniciativa dedicada a conscientizar a sociedade sobre os impactos nefastos da caça ilegal e propor soluções sustentáveis para proteger a vida selvagem em todo o mundo.</p>
+      <p class="justificado">Com uma abordagem abrangente, nosso objetivo é criar uma mudança positiva na atitude das pessoas em relação à caça predatória, promovendo a conservação da biodiversidade e a preservação dos ecossistemas.</p>
+    </div>
+  </section>
+
+  <!-- SELEÇÃO -->
+  <section id="menu2">
+    <!-- Conteúdo da seção de propostas principais -->
+  </section>
+
+  <!-- ECOPONTOS -->
+  <section id="menu3" class="cor_fundo">
+    <!-- Conteúdo da seção de apoio a instituições -->
+  </section>
+
+  <!-- RODAPÉ -->
+  <footer>
+    <div class="coluna dois">
+      <h1 class="esquerda">Sobre o Site</h1>
+      <p>Projeto desenvolvido durante a eletiva "Mundo do Desenvolvimento Web", ministrada pelo professor Ujeverson Tavares.</p>
     </div>
     <div class="coluna dois">
       <h1>Créditos</h1>
-      <p class="centro">icones Flaticon</p>
+      <p class="centro">Ícones Flaticon</p>
     </div>
   </footer>
 </body>
+
 </html>
