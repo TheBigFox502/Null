@@ -54,7 +54,7 @@ header .menu li a { /* Define o estilo dos links */
   color: #1E1B24(255, 0, 0); /* Define a cor como white */
 }
 header .menu li:hover { /* Define o estilo dos itens da lista quando o mouse passa por cima */
-  background-color: #9B9987;  /* Define a cor de fundo como #01acea */
+  background-color: #01acea;  /* Define a cor de fundo como #01acea */
 }
 /* --------  Capa  -------- */
 figure {  /* Define o estilo da figura */
