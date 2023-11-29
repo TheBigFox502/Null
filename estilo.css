@@ -51,7 +51,7 @@ header .menu li { /* Define o estilo dos itens da lista */
 header .menu li a { /* Define o estilo dos links */
   color: initial; /* Define a cor como initial */
   text-decoration: initial; /* Define o text-decoration como initial */
-  color: #4e00eb(255, 0, 0); /* Define a cor como white */
+  color: #f7f7f7; /* Define a cor como white */
 }
 header .menu li:hover { /* Define o estilo dos itens da lista quando o mouse passa por cima */
   background-color: #01acea;  /* Define a cor de fundo como #01acea */
@@ -167,7 +167,7 @@ footer {  /* Define o estilo do rodapé */
   margin: 0 auto; /* Define a margem como 0 */
   overflow: hidden; /* Define o overflow como hidden */
   padding: 30px 0 50px 0; /* Define o padding como 30px 0 50px 0 */
-  color: #F3F9D2;  /* Define a cor como #fff */
+  color: #f7f7f7;  /* Define a cor como #fff */
 }
 footer .container { /* Define o estilo do container */
   padding: 30px 0 50px 0; /* Define o padding como 30px 0 50px 0 */
