@@ -54,7 +54,7 @@ header .menu li a { /* Define o estilo dos links */
   color: #f7f7f7; /* Define a cor como white */
 }
 header .menu li:hover { /* Define o estilo dos itens da lista quando o mouse passa por cima */
-  background-color: #01acea;  /* Define a cor de fundo como #01acea */
+  background-color: #960200;  /* Define a cor de fundo como #01acea */
 }
 /* --------  Capa  -------- */
 figure {  /* Define o estilo da figura */
@@ -126,7 +126,7 @@ figure h2.titulo {  /* Define o estilo do título h2 */
   margin: 15px;   /* Define a margem como 15px */
 }
 .coluna:hover > .icone {  /* Define o estilo do ícone quando o mouse passa por cima */
-  background: lightblue;  /* Define o background como lightblue */
+  background: #ff03002e;  /* Define o background como lightblue */
 }
 .coluna img { /* Define o estilo da imagem */
   height: 300px;  /* Define a altura como 300px */
